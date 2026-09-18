@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>原料与工艺｜OMA MORI 玛卡饮品</title>
+<meta name="description" content="玛卡提取物的低温凝胶化处理、浓缩比例说明，以及本产品的配方成分组成。">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#0a0708;color:#f3ece2;font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Source Han Sans SC','Noto Sans CJK SC','WenQuanYi Micro Hei',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.8}
+img{max-width:100%;display:block}
+a{color:#e8c37a;text-decoration:none}
+a:hover{color:#ffd98e}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px}
+header{position:sticky;top:0;z-index:50;background:rgba(10,7,8,.94);backdrop-filter:blur(10px);border-bottom:1px solid rgba(212,164,74,.28)}
+.bar{max-width:1280px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.bar img{height:38px;width:auto}
+nav.desk{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}
+nav.desk a{padding:9px 12px;font-size:14px;color:#ded3c4;border-radius:10px}
+nav.desk a:hover{background:rgba(212,164,74,.14);color:#ffd98e}
+nav.desk a.on{background:#d4a44a;color:#0a0708;font-weight:700}
+nav.desk a.cta{border:1px solid rgba(212,164,74,.6);color:#ffd98e;font-weight:700}
+nav.desk a.cta:hover{background:#d4a44a;color:#0a0708}
+#burger{display:none;width:46px;height:46px;flex-direction:column;justify-content:center;gap:5px;padding:0 11px;background:transparent;border:1px solid rgba(212,164,74,.5);border-radius:10px;cursor:pointer}
+#burger span{display:block;height:2px;background:#e8c37a}
+nav.mob{display:none;border-top:1px solid rgba(212,164,74,.28);background:#0c0809}
+nav.mob a{display:block;padding:15px 20px;font-size:16px;color:#ded3c4;border-bottom:1px solid rgba(243,236,226,.08)}
+@media (max-width:900px){nav.desk{display:none}#burger{display:flex}nav.mob.open{display:block}}
+section{padding-block:clamp(40px,5.5vw,80px)}
+h1{margin:0 0 18px;font-weight:900;font-size:clamp(25px,4vw,46px);line-height:1.28;text-wrap:balance}
+h2{margin:0 0 18px;font-weight:900;font-size:clamp(21px,2.8vw,32px);line-height:1.35;text-wrap:balance}
+h3{margin:0 0 10px;font-weight:700;font-size:clamp(16px,1.8vw,19px);color:#fff}
+p{margin:0 0 14px;font-size:clamp(14px,1.15vw,15.5px);color:#ded3c4;text-wrap:pretty}
+.eyebrow{font-size:12px;letter-spacing:.28em;color:#c1913f;margin:0 0 14px;font-weight:700}
+.lead{font-size:clamp(15px,1.3vw,17px);color:#c2b5a5}
+.muted{color:#9b8a72;font-size:13px;line-height:1.9}
+.grid{display:grid;gap:clamp(14px,1.8vw,20px);align-items:stretch}
+.g2{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+.card{display:flex;flex-direction:column;padding:clamp(20px,2.4vw,28px);border:1px solid rgba(212,164,74,.2);border-radius:16px;background:linear-gradient(180deg,rgba(24,17,14,.92),rgba(16,11,10,.88))}
+.card p:last-child{margin-bottom:0}
+.stat{font-family:'DIN Alternate','Helvetica Neue',Arial,system-ui,sans-serif;letter-spacing:.01em;font-weight:700;font-size:clamp(26px,3.2vw,38px);color:#e8b24a;line-height:1.1}
+.chip{display:inline-block;padding:5px 14px;margin:0 8px 8px 0;border-radius:999px;border:1px solid rgba(212,164,74,.4);background:rgba(212,164,74,.1);font-size:13px;color:#e8c37a}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;border-radius:999px;background:linear-gradient(135deg,#e2b559,#b9862f);color:#170d05;font-weight:700;font-size:15px}
+.btn:hover{color:#170d05;background:linear-gradient(135deg,#f3cb77,#cf9a3d)}
+.btn.ghost{background:transparent;border:1px solid rgba(243,236,226,.28);color:#f3ece2}
+.btn.ghost:hover{border-color:#d4a44a;color:#ffd98e}
+.hero{position:relative;overflow:hidden;border-bottom:1px solid rgba(212,164,74,.16)}
+.hero .bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.5}
+.hero .veil{position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,7,8,.96),rgba(10,7,8,.72) 55%,rgba(10,7,8,.5))}
+.hero .wrap{position:relative}
+.rowimg{border-radius:16px;overflow:hidden;border:1px solid rgba(212,164,74,.18)}
+.rowimg img{width:100%;height:100%;object-fit:cover}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:11px 10px;border-bottom:1px solid rgba(243,236,226,.1);text-align:left}
+th{color:#c1913f;font-weight:700;font-size:13px;letter-spacing:.04em}
+td.num{text-align:right;font-variant-numeric:tabular-nums;color:#e8b24a}
+label{display:block;font-size:13px;color:#c2b5a5;margin-bottom:6px}
+input,select,textarea{width:100%;padding:13px 15px;margin-bottom:16px;border-radius:6px;background:rgba(212,164,74,.05);border:1px solid rgba(212,164,74,.28);color:#f3ece2;font-size:15px;font-family:inherit}
+input:focus,select:focus,textarea:focus{outline:none;border-color:#d4a44a}
+footer{background:#08060a;border-top:1px solid rgba(212,164,74,.2);padding-block:clamp(32px,4vw,48px)}
+footer .cols{display:flex;flex-wrap:wrap;gap:24px 40px;justify-content:space-between}
+footer nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,auto));gap:10px 30px;font-size:14px}
+footer nav a{color:#b7a894}
+.notice{margin-top:22px;padding-top:18px;border-top:1px solid rgba(243,236,226,.07)}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a href="index.html"><img src="assets/logo.png" alt="OMA MORI"></a>
+    <nav class="desk"><a href="index.html">首页</a><a href="about.html">关于玛卡</a><a href="features.html" class="on">原料与工艺</a><a href="ingredients.html">成分与规格</a><a href="usage.html">饮用方式与标示</a><a href="faq.html">常见问题</a><a href="library.html">科普专栏</a><a href="contact.html" class="cta">联系我们</a></nav>
+    <button id="burger" type="button" aria-label="打开菜单"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="mob" id="mobnav"><a href="index.html">首页</a><a href="about.html">关于玛卡</a><a href="features.html">原料与工艺</a><a href="ingredients.html">成分与规格</a><a href="usage.html">饮用方式与标示</a><a href="faq.html">常见问题</a><a href="library.html">科普专栏</a><a href="contact.html">联系我们</a></nav>
+</header>
+
+<section class="hero" style="padding-block:clamp(40px,5vw,72px)">
+  <div class="bg" style="background-image:url('assets/b5.jpg');opacity:.35"></div>
+  <div class="veil"></div>
+  <div class="wrap" style="position:relative;max-width:820px">
+    <p class="eyebrow">RAW MATERIAL &amp; PROCESS</p>
+    <h1>原料与加工工艺</h1>
+    <p class="lead" style="margin:0">本页说明玛卡提取物的处理方式与本产品的配方组成，均为工艺与成分描述。</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap" style="max-width:940px">
+    <h2>低温凝胶化处理</h2>
+    <p>玛卡根本身含有较多淀粉。本产品所用原料采用凝胶化（Gelatinization）工艺，在控制温度的条件下处理，去除部分淀粉与杂质后再行浓缩。</p>
+    <div class="grid g3" style="margin-top:24px">
+      <div class="card"><p class="eyebrow" style="margin-bottom:8px">01</p><h3>提取</h3><p>以玛卡根为原料进行提取。</p></div>
+      <div class="card"><p class="eyebrow" style="margin-bottom:8px">02</p><h3>凝胶化与去淀粉</h3><p>控温处理，去除部分淀粉与杂质。</p></div>
+      <div class="card"><p class="eyebrow" style="margin-bottom:8px">03</p><h3>浓缩</h3><p>浓缩后按配方比例加入液体基底。</p></div>
+    </div>
+    <p class="muted" style="margin-top:20px">【请核实后填写】关于浓缩倍数、专利号与工艺名称的具体表述，须与原料供应商提供的书面资料及有效专利证书一致，并在此处标明专利号与专利种类；无法提供证明文件的表述请删除。</p>
+  </div>
+</section>
+
+<section style="background:rgba(212,164,74,.04);border-block:1px solid rgba(212,164,74,.14)">
+  <div class="wrap grid g2" style="align-items:center">
+    <div class="rowimg" style="aspect-ratio:16/10"><img src="assets/usage-engine.jpg" alt="玛卡根原料"></div>
+    <div>
+      <h2>配方中的主要成分</h2>
+      <p>除玛卡提取物外，本产品另添加下列成分。各成分均为食品原料或食品添加剂，用量符合《食品安全国家标准 食品添加剂使用标准》（GB 2760）的规定。</p>
+      <p style="margin:0"><span class="chip">玛卡提取物 400 mg</span><span class="chip">L-精氨酸 480 mg</span><span class="chip">牛磺酸</span><span class="chip">葡萄糖酸锌</span><span class="chip">D-核糖</span><span class="chip">苋菜提取物</span></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap grid g2" style="align-items:center">
+    <div>
+      <h2>液态剂型与口味</h2>
+      <p>本产品为液态饮品，装于 10 克随身包中，开封后可直接饮用，无需冲泡或吞服胶囊。</p>
+      <p>配方中加入浓缩苹果汁与少量白砂糖调味，并使用酸度调节剂与增稠剂，使口感与外观在保质期内保持稳定。</p>
+      <p style="margin:0">每份能量 54 千焦（13 千卡），脂肪含量 0 克，具体见标示页。</p>
+    </div>
+    <div class="rowimg" style="aspect-ratio:16/10"><img src="assets/usage-taste.jpg" alt="苹果风味饮品"></div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="wrap cols">
+    <div style="max-width:42ch">
+      <img src="assets/logo.png" alt="OMA MORI" style="height:30px;margin-bottom:12px">
+      <p class="muted" style="margin:0">本产品为普通食品，不能替代药物，也不能替代均衡膳食。本网站仅提供产品原料、配料与饮用方式的说明，不作任何功效表述。</p>
+    </div>
+    <nav><a href="index.html">首页</a><a href="about.html">关于玛卡</a><a href="features.html">原料与工艺</a><a href="ingredients.html">成分与规格</a><a href="usage.html">饮用方式与标示</a><a href="faq.html">常见问题</a><a href="library.html">科普专栏</a><a href="contact.html">联系我们</a></nav>
+  </div>
+  <!-- 在大陆正式上线前，请恢复以下区块并填入真实信息（备案号与主体信息为大陆经营网站的必备公示项）：
+  <div class="wrap notice">
+    <p class="muted" style="margin:0">
+      经营主体：公司全称｜营业执照注册号：xxx｜食品经营许可证：xxx<br>
+      境内代理商：xxx｜地址：xxx｜客服电话：xxx<br>
+      <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">ICP备00000000号-1</a>　公安备案号：xxx
+    </p>
+  </div>
+  -->
+</footer>
+<script>
+var b=document.getElementById('burger'),m=document.getElementById('mobnav');
+if(b&&m){b.addEventListener('click',function(){m.classList.toggle('open')});}
+</script>
+</body>
+</html>
